@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
+import {useState} from "react";
+
+
+
 export default function LoginPage(){
+    const[email, setEmail] = useState(' ');
+    const[password, setPassword] = useState(' ');
     return (
         <div className="mt-4 grow flex items-center justify-around">
             <div className = "mb-64">
